@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* style.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+footer nav ul {
+    flex-direction: row;
+    gap: 1em;
+}
+
+footer address {
+    font-style: normal;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f39c12;
+}
+
